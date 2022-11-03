@@ -7,5 +7,7 @@ const router = Router();
 
 router.post("/",cartController.post);
 router.get("/" ,cartController.get);
+router.put("/:id" ,cartController.put);
+router.delete("/:id" ,cartController.delete);
 
 export default router;
